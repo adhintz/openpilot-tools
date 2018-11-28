@@ -33,9 +33,9 @@ Setup
 1. Install native dependencies
 
     - core tools
-        ```
+        ```bash
         sudo apt install git curl python-pip
-	sudo pip install --upgrade pip==9.0.3
+        sudo pip install --upgrade pip==9.0.3
         ```
 
     - ffmpeg (tested with 3.3.2)
