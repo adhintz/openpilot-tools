@@ -39,7 +39,7 @@ Setup
 
     - ffmpeg (tested with 3.3.2)
         ```bash
-        sudo apt install ffmpeg
+        sudo apt install ffmpeg libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libavresample-dev libavfilter-dev
         ```
 
     - build tools
