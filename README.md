@@ -34,7 +34,7 @@ Setup
 
     - core tools
         ```
-        sudo apt install git curl
+        sudo apt install git curl python-pip
         ```
 
     - ffmpeg (tested with 3.3.2)
