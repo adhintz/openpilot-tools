@@ -117,7 +117,7 @@ Setup
     ```bash
     sudo mkdir /data
     sudo mkdir /data/params
-    sudo chown /data/params <username>   # type "whoami" to get your username
+    sudo chown $USER /data/params
     ```
 
 6. Try out some tools!
