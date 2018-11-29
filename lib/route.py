@@ -11,7 +11,7 @@ CAMERA_FILENAMES = ['fcamera.hevc', 'acamera', 'icamera']
 
 class Route(object):
   def __init__(self, route_name, data_dir):
-    self.route_name = route_name
+    self.route_name = route_name.replace('_', '|')
     self._segments = self._get_segments(data_dir)
 
   @property
